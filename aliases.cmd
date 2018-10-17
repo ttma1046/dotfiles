@@ -1,0 +1,15 @@
+al=vim ./aliases.cmd
+gc=J: $t cd /github/ $t md $1 $t cd $1 $t git clone https://github.com/$1/$2 $t cd $2 $t vim .
+..=cd ..
+...=cd ../..
+....=cd ../../..
+.....=cd ../../../..
+gs=git status
+g=git
+gcc=git commit -m $*
+ga=git add .
+gd=git diff .
+gp=git push
+gu=git pull
+gf=git fetch --all
+gl=git log --oneline --all --graph --decorate  $*
