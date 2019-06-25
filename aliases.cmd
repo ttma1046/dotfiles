@@ -1,5 +1,5 @@
 al=vim c:\cmder\config\aliases.cmd
-gc=J: $t cd /github/ $t md $1 $t cd $1 $t git clone https://github.com/$1/$2 $t cd $2 $t vim .
+gc=D: $t cd /github/ $t md $1 $t cd $1 $t git clone https://github.com/$1/$2 $t cd $2 $t vim .
 ..=cd ..
 ...=cd ../..
 ....=cd ../../..
