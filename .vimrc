@@ -1,4 +1,3 @@
-
 set exrc
 set guicursor=
 set number relativenumber
@@ -19,8 +18,6 @@ set signcolumn=yes
 set colorcolumn=80
 syntax enable
 
-" Specify a directory for plugins
-" - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('$HOME/vimfiles/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'gruvbox-community/gruvbox'
