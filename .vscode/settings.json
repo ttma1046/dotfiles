@@ -6,7 +6,7 @@
   "workbench.editor.showTabs": "single",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "breadcrumbs.enabled": false,
   "workbench.sideBar.location": "right",
   "editor.stickyScroll.enabled": false,
@@ -93,7 +93,7 @@
   "editor.matchBrackets": "never",
   "editor.parameterHints.enabled": false,
   "editor.lightbulb.enabled": "off",
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "on",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "scm.diffDecorations": "none",
@@ -127,5 +127,20 @@
   "editor.fontSize": 12,
   "terminal.integrated.suggest.enabled": true,
   "terminal.integrated.fontSize": 13,
-  "terminal.integrated.fontFamily": "monospace"
+  "terminal.integrated.fontFamily": "monospace",
+  "claudeCode.preferredLocation": "sidebar",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "explorer.confirmPasteNative": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "markdown.copyFiles.overwriteBehavior": "overwrite",
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.incrementalNaming": "disabled"
 }
