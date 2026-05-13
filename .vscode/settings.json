@@ -3,11 +3,11 @@
   "editor.rename.enablePreview": false,
   "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
   "workbench.activityBar.location": "hidden",
-  "workbench.editor.showTabs": "single",
+  "workbench.editor.showTabs": "multiple",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": true,
   "editor.minimap.enabled": true,
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "workbench.sideBar.location": "right",
   "editor.stickyScroll.enabled": false,
   "explorer.compactFolders": false,
@@ -26,8 +26,8 @@
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
       "x": 20,
-      "y": 16
-    }
+      "y": 16,
+    },
   },
   "custom-ui-style.stylesheet": {
     ".notification-toast": "box-shadow: none !important",
@@ -49,7 +49,7 @@
     ".title .monaco-icon-label:after": "margin-right: 0",
     ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
     ".title .monaco-icon-label.file-icon": "margin: 0 60px",
-    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)",
   },
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "solid",
@@ -71,22 +71,20 @@
     "editorOverviewRuler.border": "#0000",
     "[Aura Dracula Spirit (Soft)]": {
       "editorSuggestWidget.selectedBackground": "#3A334B",
-      "sideBar.background": "#191521"
-    }
+      "sideBar.background": "#191521",
+    },
   },
-
   "editor.fontLigatures": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": "comment",
         "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
+          "fontStyle": "italic",
+        },
+      },
+    ],
   },
-
   "editor.colorDecorators": false,
   "editor.codeLens": false,
   "editor.links": false,
@@ -98,7 +96,6 @@
   "files.insertFinalNewline": true,
   "scm.diffDecorations": "none",
   "editor.lineNumbers": "relative",
-
   "editor.detectIndentation": false,
   "editor.showFoldingControls": "never",
   "editor.guides.indentation": false,
@@ -111,7 +108,7 @@
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.quickSuggestions": {
-    "other": "off"
+    "other": "off",
   },
   "editor.suggestOnTriggerCharacters": false,
   "editor.tabCompletion": "on",
@@ -124,23 +121,34 @@
   "editor.fontFamily": "'Fira Code iScript'",
   "editor.fontWeight": "400",
   "editor.tabSize": 2,
-  "editor.fontSize": 12,
+  "editor.fontSize": 10,
   "terminal.integrated.suggest.enabled": true,
-  "terminal.integrated.fontSize": 13,
-  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "claudeCode.preferredLocation": "sidebar",
   "github.copilot.nextEditSuggestions.enabled": true,
   "explorer.confirmPasteNative": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "markdown.copyFiles.overwriteBehavior": "overwrite",
   "files.saveConflictResolution": "overwriteFileOnDisk",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "chat.viewSessions.orientation": "stacked",
   "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "explorer.incrementalNaming": "disabled",
+  "git.openRepositoryInParentFolders": "never",
+  "chat.fontSize": 10,
+  "debug.console.fontSize": 10,
+  "scm.inputFontSize": 10,
+  "chat.editor.fontSize": 10,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "explorer.incrementalNaming": "disabled"
+  "chat.mcp.gallery.enabled": true,
 }
